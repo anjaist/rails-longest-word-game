@@ -1,3 +1,57 @@
-// Place all the styles related to the games controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+$dark-grey: #212121;
+$card-width: 10vh;
+
+body {
+  background-image: url('https://source.unsplash.com/1600x1080/?grass');
+  background-position: cover;
+}
+
+a {
+  text-decoration: none;
+  color: white !important;
+  &:hover{
+    text-decoration: none !important;
+    color:white !important;
+  }
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+li {
+  margin: 30px 0;
+  background-color: #5badff;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.2);
+  padding: 10px;
+  border-radius: 8px;
+  width: $card-width;
+  height: $card-width;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 4vh;
+}
+
+h1 {
+  background-color: rgba(255,255,255,0.5);
+  border-radius: 5px;
+  padding: 20px 30px;
+  color: $dark-grey;
+  margin-bottom: 20px;
+}
+
+p {
+  background-color: rgba(255,255,255,0.5);
+  border-radius: 5px;
+  padding: 20px 30px;
+  color: $dark-grey;
+}
+
+#button {
+  width: 192px;
+}

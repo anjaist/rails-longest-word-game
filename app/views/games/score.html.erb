@@ -1,14 +1,14 @@
-<h1>Results</h1>
+<div class="container">
+  <h1>Results</h1>
 
 
-<p>Your word: <%= @word %></p>
+  <p>Your word: <%= @word %></p>
 
-<br>
+  <br>
 
-<%= @result %>
+  <p> <%= @result %> </p>
 
-<%= @request_hash %>
+  <br>
 
-<br>
-
-<%= link_to "Play again", new_path %>
+  <div class="btn btn-danger"><%= link_to "Play again", new_path %></div>
+</div>
