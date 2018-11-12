@@ -1,2 +1,14 @@
-<h1>Games#score</h1>
-<p>Find me in app/views/games/score.html.erb</p>
+<h1>Results</h1>
+
+
+<p>Your word: <%= @word %></p>
+
+<br>
+
+<%= @result %>
+
+<%= @request_hash %>
+
+<br>
+
+<%= link_to "Play again", new_path %>
